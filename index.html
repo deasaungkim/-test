@@ -9,22 +9,28 @@
 </head>
 
 <body>
-  <label>Fisrt name:</label> <input></input>
-  <label>Last name:</label> <input></input>
-  <label>Email:</label> <input></input>
-  <p>Gender :</p> <input type="checkbox"><label for="">Male</label>
-  <input type="checkbox"><label for="">Female</label>
-  <p>Favorite : </p><label for="">HTML</label><input type="checkbox">
-  <label for="">JAVA</label><input type="checkbox">
-  <label for="">JavaScript</label><input type="checkbox">
-  <p>Browser : <select>
-      <option value="">크롬</option>
-      <option>사파리</option>
-      <option value="">엣지</option>
-    </select>
-  <p>Birthday :</p>
-  <input type="date">
-  <button>제출</button>
+  <form>
+    <div><label>Fisrt name:</label><br><input required="text"></input></div>
+    <div><label>Last name:</label><br><input required="text"></input></div>
+    <div><label>Email:</label><br><input required="text"></input></div>
+    <div style="display:flex; align-items: center;">
+      <p>Gender :</p> <input type="checkbox"><label for="">Male</label>
+      <input type="checkbox"><label for="">Female</label>
+    </div>
+    <div style="display:flex; align-items: center;">
+      <p>Favorite : </p><label for="">HTML</label><input type="checkbox" required="text">
+      <label for="">JAVA</label><input type="checkbox" required="text">
+      <label for="">JavaScript</label><input type="checkbox" required="text">
+    </div>
+    <form>Browser : <select>
+        <option value="">크롬</option>
+        <option>사파리</option>
+        <option value="">엣지</option>
+      </select>
+      <p>Birthday :</p>
+      <input type="date">
+      <button>제출</button>
+    </form>
 
 
 
